@@ -106,7 +106,7 @@ static int choices(const int* choice) {
         break; 
     case 4:
         char* nameofthefile = (char*)malloc(100 * sizeof(char));
-        chdir("/home/koten");
+        chdir("/home");
         printf("Enter the name of the file you want to edit: ");
         fgets(nameofthefile, sizeof(nameofthefile), stdin);
         editfile(nameofthefile);
